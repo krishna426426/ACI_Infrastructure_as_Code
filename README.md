@@ -15,17 +15,17 @@ This lab will walk you through using the newest way to **automate ACI using Terr
 
 Step 1: Once the session has been opened, select Details and then use **Anyconnect** to connect to the lab using the specified **host url, login, and password.**
 
-![](imgs/dcloud.png)
+![](imgs_1/dcloud.png)
 
 Step 2: Then click on **wkst1** icon and then click on the **Remote Desktop**. Another tab will be opened for the workstation. The workstation is where you will be performing the lab. 
 
-![](imgs/anyconnect.png)
+![](imgs_1/anyconnect.png)
 
-![](imgs/dcloud_rdp.png)
+![](imgs_1/dcloud_rdp.png)
 
 Step 3: Click on the **Centos7-tools1** icon and copy the **IP address, username and password.**
 
-![](imgs/dcloud_ip.png)
+![](imgs_1/dcloud_ip.png)
 
 Step 4: Click on the **PuTTY** icon at the bottom of taskbar on **wkst1** window.
 
@@ -71,7 +71,7 @@ Step 4: Move the terraform binary to /usr/local/bin/
 root@centos7-tools1 ~] # mv terraform /usr/local/bin/
 ```
 
-![](imgs/terraform_install.png)
+![](imgs_1/terraform_install.png)
 
 ### Verify the Terraform Installation
 
