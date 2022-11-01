@@ -10,7 +10,7 @@ In this lab, you will learn how Terraform can be used to define network componen
 
 This lab will walk you through using the newest way to **automate ACI using Terraform**. The benefit of using Terraform, Terraform resources and ACI data sources is, it takes away the need to write and develop custom scripts. The Terraform resources are pre-written blocks of code that perform a specific task. This saves you time from researching API requests, developing code to make the proper API request, and then testing and debugging the code.
 
-## Module 1: How to connect to lab and Setup Terraform
+### How to connect to lab and Setup Terraform
 
 Step 1: Once the session has been opened, select Details and then use **Anyconnect** to connect to the lab using the specified **host url, login, and password.**
 
