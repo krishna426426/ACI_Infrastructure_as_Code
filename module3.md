@@ -167,6 +167,4 @@ Step 4: Navigate back to your Tenant in the **APIC GUI**, and follow these steps
 
 ![](imgs_3/apic.png)
 
-### Proceed to Module 4
-
-
+### Proceed to [Module 4](https://github.com/krishna426426/ACI_Infrastructure_as_Code/blob/main/module4.md)
