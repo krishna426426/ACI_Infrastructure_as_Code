@@ -165,6 +165,6 @@ Step 4: Navigate back to your Tenant in the **APIC GUI**, and follow these steps
 
 •	Expand the "Standard" folder to see the contracts that you created.
 
-![](imgs_3/apic.png)
+![](imgs/imgs_3/apic.png)
 
 ### Proceed to [Module 4](https://github.com/krishna426426/ACI_Infrastructure_as_Code/blob/main/module4.md)

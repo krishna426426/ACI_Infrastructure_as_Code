@@ -33,7 +33,7 @@ Step 4: Move the terraform binary to /usr/local/bin/
 root@centos7-tools1 ~] # mv terraform /usr/local/bin/
 ```
 
-![](imgs_1/terraform_install.png)
+![](imgs/imgs_1/terraform_install.png)
 
 ### Verify the Terraform Installation
 

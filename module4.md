@@ -155,8 +155,8 @@ Step 4: Navigate back to your **Tenant** in the **APIC GUI**, and follow these s
 
 •	Expand the **Application EPGs** folder to see the EPGs you created.
 
-![](imgs_4/apic-4.png)
+![](imgs/imgs_4/apic-4.png)
 
-![](imgs_4/apic-4-2.png)
+![](imgs/imgs_4/apic-4-2.png)
 
 ### Proceed to [Module 5](https://github.com/krishna426426/ACI_Infrastructure_as_Code/blob/main/module5.md)

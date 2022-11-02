@@ -14,7 +14,7 @@ $ mkdir aci_terraform
 $ cd aci_terraform/ 
 ```
 
-![](imgs_2/putty_dir.png)
+![](imgs/imgs_2/putty_dir.png)
 
 Step 2; Create a file using **vi** and name it as **main.tf** and enter the following code to the main.tf
 
@@ -48,7 +48,7 @@ Provider “aci” {
 
 Step 3: Type in **cat main.tf** to verify the file contents were copied and saved correctly.
 
-![](imgs_2/main_tf.png)
+![](imgs/imgs_2/main_tf.png)
 
 You can see that the first part of the **main.tf** file points to the source of the provider. 
 
@@ -65,7 +65,7 @@ In this example of the ACI provider configuration, the username, password and UR
 
 Step 4: Return to the dCloud tab and click on the **aci-simulator-a** to get the **username, password and IP address** of the APIC.
 
-![](imgs_2/aci_sim_a.png)
+![](imgs/imgs_2/aci_sim_a.png)
 
 Step 5: The variables such as **var.user.username, var.user.password and var.user.url** are defined in the variable.tf as follows. Create another file **variable.tf** using vi. Enter i to paste the following copied code.
 
@@ -88,7 +88,7 @@ variable "user" {
 
 Step 6: Type in  **cat variable.tf** to verify the file contents were copied and saved correctly.
 
-![](imgs_2/cat_var.png)
+![](imgs/imgs_2/cat_var.png)
 
 
 ## Initializing the Terraform Plan
@@ -121,7 +121,7 @@ you run "terraform init" in the future.
 
 Terraform has been successfully initialized!
 ```
-![](imgs_2/terraform_init.png)
+![](imgs/imgs_2/terraform_init.png)
 
 Step 2: You may now begin working with Terraform. Try running **terraform plan** to see any changes that are required for your infrastructure. All Terraform commands should now work.
 
@@ -138,7 +138,7 @@ changes are needed.
 .  ..  main.tf  .terraform  .terraform.lock.hcl  variable.tf
 ```
 
-![](imgs_2/terraform_plan.png)
+![](imgs/imgs_2/terraform_plan.png)
 
 You have now initialized the plan and Terraform created a .terraform directory in the current folder. This directory contains the binary executable of the ACI Terraform provider.
 
@@ -206,7 +206,7 @@ Step 2: Enter the tenant value in **variable.tf**
 
 Step 3: Type in **cat variable.tf** to verify the file contents were copied and saved correctly.
 
-![](imgs_2/cat_var_2.png)
+![](imgs/imgs_2/cat_var_2.png)
 
 Step 4: Execute terraform plan
 
@@ -298,19 +298,19 @@ Step 7: Login to the APIC to validate your new Tenant has been created. Open the
 
 Step 8: You can Bypass the Begin First Time Setup screen by clicking on **Begin First Time Setup. **
 
-![](imgs_2/first_time_setup.png)
+![](imgs/imgs_2/first_time_setup.png)
 
 Step 9: And then clicking on **Close**. 
 
-![](imgs_2/close.png)
+![](imgs/imgs_2/close.png)
 
 Step 10: Access the **Tenants** from the home page.
 
-![](imgs_2/tenants.png)
+![](imgs/imgs_2/tenants.png)
 
 Step 11: You can view the newly created tenant** (terraform_tenant)**.
 
-![](imgs_2/terraform_tenant.png)
+![](imgs/imgs_2/terraform_tenant.png)
 
 ### Additional ACI tenant network resources 
 
@@ -482,14 +482,14 @@ Step 6: Go back to APIC and check the VRF, BD and subnet has configured.  Click 
 
 Step 7: Double-click on **terraform_tenant**
 
-![](imgs_2/terraform_tenant_2.png)
+![](imgs/imgs_2/terraform_tenant_2.png)
 
 Step 8: Click on **Networking**. You can see the newly created VRF and BD
 
-![](imgs_2/vrf_bd.png)
+![](imgs/imgs_2/vrf_bd.png)
 
 Step 9: You can click on the **Bridge Domain** (prod_bd) on the left-hand side to see the associated Subnet
 
-![](imgs_2/bd_subnet.png)
+![](imgs/imgs_2/bd_subnet.png)
 
 ### Proceed to [Module 3](https://github.com/krishna426426/ACI_Infrastructure_as_Code/blob/main/module3.md)

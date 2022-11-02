@@ -41,7 +41,7 @@ Destroy complete! Resources: 20 destroyed.
 
 Step 2: Check the APIC terraform-tenant and all associated config should be deleted.
 
-![](imgs_5/apic_5.png)
+![](imgs/imgs_5/apic_5.png)
 
 Great job, excellent work! You now have a solid understanding of how the ACI Terraform resources can be used to manage your entire **ACI environment** "**as Code**".
 
