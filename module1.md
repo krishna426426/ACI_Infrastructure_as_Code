@@ -76,4 +76,4 @@ The following are some of the terraform commands that will be useful when doing 
 
 **Terraform Destroy:** This is the command that allows the user to "destroy" (delete) the Terraform managed infrastructure
 
-### **Proceed to Module 2**
+### **Proceed to [Module 2](https://github.com/krishna426426/ACI_Infrastructure_as_Code/blob/main/module2.md)**
