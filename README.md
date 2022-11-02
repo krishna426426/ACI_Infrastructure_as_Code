@@ -32,7 +32,7 @@ Step 4: Click on the **PuTTY** icon at the bottom of taskbar on **wkst1** window
 
 Step 5: Enter the IP address of the CentOS and then click **Open**.
 
-![](imgs/imgs_1/putty_ip.png)
+![](imgs/imgs_1/puttY_ip.png)
 
 Step 6: Enter the **username and password (root/C1sco12345)**
 
