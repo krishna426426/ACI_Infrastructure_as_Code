@@ -294,7 +294,7 @@ total 16
 -rw-r--r--. 1 root root 190 Oct 13 19:11 variable.tf
 ```
 
-Step 7: Login to the APIC to validate your new Tenant has been created. Open the chrome browser from the toolbar in the workstation. Enter** https://198.18.133.200 and login with admin/C1sco12345**.
+Step 7: Login to the APIC to validate your new Tenant has been created. Open the chrome browser from the toolbar in the workstation. Enter **https://198.18.133.200 and login with admin/C1sco12345**
 
 Step 8: You can Bypass the Begin First Time Setup screen by clicking on **Begin First Time Setup. **
 
