@@ -403,7 +403,7 @@ main.tf
 variable.tf
 [root@centos7-tools1 aci_terraform]#
 ```
-![](imgs/imgs_2/vrf_bd.png)
+![](imgs/imgs_2/terraform_fmt.png)
 
 So if you check main.tf and variable.tf, it will be formatted automatically.
 
