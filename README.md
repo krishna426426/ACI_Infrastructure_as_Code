@@ -12,15 +12,15 @@ This lab will walk you through using the newest way to **automate ACI using Terr
 
 ### How to connect to lab and Setup Terraform
 
-Step 1: Once the session has been opened, You have two options to connect to the lab VPN and Remote Desktop (Without connecting to VPN) 
+Step 1: Once the session has been opened, You have two options to connect to the lab: **VPN and Remote Desktop (Without connecting to VPN) **
 
-Option1: select Details and then use **Anyconnect** to connect to the lab using the specified **host url, login, and password.**
+**Option1 VPN:** select Details and then use **Anyconnect** to connect to the lab using the specified **host url, login, and password.**
 
 ![](imgs/imgs_1/dcloud.png)
 
 ![](imgs/imgs_1/anyconnect.png)
 
- Option2:  click on **wkst1** icon and then click on the **Remote Desktop**. Another tab will be opened for the workstation. The workstation is where you will be performing the lab. 
+ **Option2 Remote Desktop(without VPN):**  click on **wkst1** icon and then click on the **Remote Desktop**. Another tab will be opened for the workstation. The workstation is where you will be performing the lab. 
 
 ![](imgs/imgs_1/dcloud_rdp.png)
 
