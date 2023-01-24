@@ -197,10 +197,10 @@ The **aci_tenant** resource is used to manage Tenants on the APIC next to the re
 Step 2: Enter the tenant value in **variable.tf**
 
 ```
-    variable "tenant" {
-        type    = string
-        default = "terraform_tenant"
-    }
+variable "tenant" {
+    type    = string
+    default = "terraform_tenant"
+}
 
 ```
 
