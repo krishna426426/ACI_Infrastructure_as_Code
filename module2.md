@@ -29,13 +29,13 @@ $ vi main.tf
 terraform {
   required_providers {
     aci = {
-      source = “CiscoDevNet/aci”
+      source = "CiscoDevNet/aci"
     }
   }
 }
 
 # Configure the provider with your Cisco APIC credentials.
-Provider “aci” {
+Provider "aci" {
   # APIC Username
   username = var.user.username
   # APIC Password
@@ -56,7 +56,7 @@ You can see that the first part of the **main.tf** file points to the source of 
 terraform {
   required_providers {
     aci = {
-      source = “CiscoDevNet/aci”
+      source = "CiscoDevNet/aci"
 ```
 
 The next part contains the definition of the ACI provider and the necessary parameters needed to instantiate it.
