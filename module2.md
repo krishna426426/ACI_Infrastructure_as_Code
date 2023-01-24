@@ -395,6 +395,18 @@ Step 2: Enter the new vrf, bd and subnet variables in the variable.tf file. Open
     }
 ```
 
+Don't worry about the indentation, because **terraform fmt** command is used to format your configuration files into a canonical format and style.
+
+```
+[root@centos7-tools1 aci_terraform]# terraform fmt
+main.tf
+variable.tf
+[root@centos7-tools1 aci_terraform]#
+```
+![](imgs/imgs_2/vrf_bd.png)
+
+So if you check main.tf and variable.tf, it will be formatted automatically.
+
 Step 3: Execute **terraform plan** and you can observe 3 actions need to be added.
 
 ```
