@@ -43,9 +43,6 @@ Step 2: Check the APIC terraform-tenant and all associated config should be dele
 
 ![](imgs/imgs_5/apic_5.png)
 
-If you want to bring back all ACI constructs that you configured, just do **terraform apply** and enter **yes** when prompted. You will see all the configuration in APIC. 
-
-Again you can do **terraform destroy** to remove the configuration 
 
 Great job, excellent work! You now have a solid understanding of how the ACI Terraform resources can be used to manage your entire **ACI environment** "**as Code**".
 
