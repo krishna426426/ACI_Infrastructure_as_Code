@@ -1,4 +1,4 @@
-# Welcome to ACI Infrastrucure as Code Hands on Lab
+# Welcome to Terraform ACI Hands on Lab
 
 
 ### Introduction
