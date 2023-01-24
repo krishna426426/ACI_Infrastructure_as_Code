@@ -322,7 +322,7 @@ There are several Terraform resources related to Tenant networking constructs, b
 
 •	aci_subnet
 
-Step 1: Open the **main.tf** using vi. Enter i and add the following code at the end of the file.and enter ESC and then type :wq! to save and exit the vi.
+Step 1: Open the **main.tf** using vi. Enter **i** and add the following code at the **end of the file** and **enter ESC and then type :wq!** to save and exit the vi.
 
 ```
     # Define an ACI Tenant VRF Resource.
